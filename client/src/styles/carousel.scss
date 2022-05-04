@@ -1,0 +1,51 @@
+
+//Carousel
+h2.text-monospace,
+p.text-monospace {
+  color: #3b5360;
+  font-size: x-large;
+  text-align: center;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+div.carousel {
+  background-color: #f8a978;
+}
+
+div.top-hero {
+  background: #f2c4c4;
+}
+div.mid-hero {
+  background-color: #1f5e84;
+  color: white;
+  text-align: center;
+  .info-hero {
+    margin: 10px;
+    font-size: 12px;
+  }
+}
+
+img.d-block {
+  object-fit: contain;
+}
+
+div.center {
+  min-width: 40%;
+  align-self: center;
+}
+
+.banner {
+  background-color: #ffffff;
+  .middle-banner {
+    margin: 0px 100px;
+  }
+}
+
+span.carousel-control-next-icon {
+  background-image: url('https://res.cloudinary.com/inetab/image/upload/v1625682481/SEI-Project-3/arrow-blue-large-12dcd5547420ecb14a07628603e2fe5327583b400cb40d1692afc293dd5f36ab_zyik4e.svg');
+}
+
+span.carousel-control-prev-icon {
+  background-image: url('https://res.cloudinary.com/inetab/image/upload/v1625682481/SEI-Project-3/arrow-blue-large-12dcd5547420ecb14a07628603e2fe5327583b400cb40d1692afc293dd5f36ab_zyik4e.svg');
+}

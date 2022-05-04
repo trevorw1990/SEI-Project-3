@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Overpass&display=swap');
+
+$main-font: 'Montserrat';
+
+.registerPage {
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9Xef8I0xx0Adus3Qw2vh0ob6_phLd9KtWDA&usqp=CAU");
+  padding: 20px 0 20px 0;
+  background-size: cover; 
+  color: rgb(74, 102, 74);
+  margin-top: 20px;
+  height: 100vh;
+  background-image: no repeat;
+  text-align: center;
+  display: flex-wrap;
+}
+
+.center-height {
+  display: flex;
+  justify-content: center;
+  // width: 100%;
+  margin-top: 100px;
+  animation: drop 1s ease-in;
+}
+div.container {
+height: 100vh;
+.register {
+  font-family: '$main-font';
+  text-align: center;
+  margin-top: 100px;
+  color: rgb(74, 102, 74);
+  align-items: center;
+  justify-content: center;
+}
+
+}
+  
+
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border: 1px solid #f8a9784d;
+  box-shadow: 0 8px 20px 0 #f8a97846;
+  border-radius: 10px;
+  padding: 30px;
+  width: 500px;
+  color: rgb(74, 102, 74);
+  button {
+    background: #1F5E84;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 8px;
+    transition: 0.7s;
+  }
+  button:hover {
+    background: #236791;
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    text-decoration: rgb(12, 8, 224);
+  }
+}
+
+div.login {
+  height: 15vh;
+  font-family: '$main-font';
+  text-align: center;
+  justify-content: baseline;
+  
+  
+  
+  background: white;
+  border: 1px solid #f8a9784d;
+  box-shadow: 0 8px 20px 0 #f8a97846;
+  border-radius: 10px;
+  padding: 30px;
+  width: 200px;
+
+}
+
+div.option {
+  justify-content: center;
+  color: rgb(74, 102, 74);
+}
+
+div.login {
+  color: rgb(74, 102, 74);
+  
+}
+
+#option {
+  font-size: medium;
+  color: white;
+}
+
+.Log:hover {
+  background: #236791;
+  transform: scale(1.02);
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+button.Log {
+  background-color: #1F5E84;
+  text-decoration: rgb(12, 8, 224);
+  border-radius: 10px;
+}
+
+@keyframes drop {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+

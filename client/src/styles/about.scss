@@ -1,0 +1,120 @@
+.image-border {
+  max-width: 50%;
+  align-self: center;
+  text-align: center;
+}
+.about-info {
+  background-color: #f2c4c4;
+  text-align: center;
+  h1 {
+    background-color: blanchedalmond;
+    max-width: fit-content;
+    margin: 10px auto 80px auto;
+    padding: none;
+    color: #3b5360;
+  }
+  p {
+    margin: 50px 80px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid black;
+  }
+  .para-1 {
+    background-color: #c4bcbc;
+    max-width: fit-content;
+  }
+  .para-2 {
+    background-color: #fecb72;
+    max-width: fit-content;
+  }
+  .para-3 {
+    background-color: #d3f5fe;
+  }
+  .store-info {
+    p.para-4 {
+      background-color: blanchedalmond;
+      max-width: fit-content;
+      text-align: left;
+      border: 2px dashed rgb(123, 94, 51);
+    }
+  }
+}
+
+.code-team {
+  flex-direction: column;
+  align-items: center;
+  background-color: #f8a978;
+  h2 {
+    background-color: blanchedalmond;
+    color: #3b5360;
+    margin: 10px auto;
+  }
+  h5 {
+    background-color: blanchedalmond;
+    margin: 0 auto;
+  }
+  .team {
+    p {
+      padding: 5px;
+    }
+    .icon {
+      margin: 10px;
+    }
+  }
+}
+.burt.card {
+  background-color: #f8a978;
+  text-align: center;
+  border: 2px solid blanchedalmond;
+  img {
+    border: 2px solid blanchedalmond;
+  }
+  p {
+    border: 2px solid blanchedalmond;
+    background-color: blanchedalmond;
+    border-radius: 2px;
+    max-width: fit-content;
+    margin: 15px auto;
+    padding: 10px;
+  }
+}
+
+.luna.card {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9Xef8I0xx0Adus3Qw2vh0ob6_phLd9KtWDA&usqp=CAU');
+  border: 2px solid blanchedalmond;
+  h3 {
+    text-decoration: underline;
+  }
+  .luna-img {
+    border: 2px solid blanchedalmond;
+    min-width: 300px;
+  }
+  p {
+    border: 2px solid blanchedalmond;
+    background-color: blanchedalmond;
+    border-radius: 2px;
+    max-width: fit-content;
+    margin: 15px auto;
+    padding: 10px;
+  }
+  #luna-name {
+    background-color: lightpink;
+    border-radius: 5px;
+    padding: 5px;
+  }
+}
+
+.memorial-title {
+  background-color: #1f5e84;
+  margin: 0;
+  text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+  div.code-team img {
+    width: 200px;
+  }
+}

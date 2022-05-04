@@ -1,0 +1,182 @@
+.tech-title {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: monospace;
+  animation: fadeIn1 0.7s;
+  font-size: 50px;
+  color: #000000;
+}
+
+.product-options {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  button {
+    padding: 15px;
+    margin: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    transition: 0.8s;
+    color: rgb(0, 0, 0);
+  }
+  button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  animation: fadeIn1 0.9s;
+}
+
+.tech-wrapper {
+  padding-top: 30px;
+  animation: fadeIn1 1s;
+  .deals-hero {
+    display: flex;
+    justify-content: center;
+    margin: 0px 50px 70px 50px;
+    border-radius: 5px;
+    .hero-text {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: rgb(255, 255, 255);
+      border-top-left-radius: 5px;
+      border-bottom-left-radius: 5px;
+      h3 {
+        font-family: monospace;
+        padding: 15px;
+        color: rgb(0, 0, 0);
+      }
+    }
+    img {
+      width: 50%;
+      border-top-right-radius: 5px;
+      border-bottom-right-radius: 5px;
+    }
+    @media only screen and (max-width: 500px) {
+      .hero-text {
+        display: block;
+      }
+      img {
+        display: none;
+        width: 100%;
+        border-radius: 5px;
+      }
+    }
+  }
+  .tech-deal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0px 30px;
+
+    .tech-card {
+      display: flex;
+      flex-direction: column;
+      width: 350px;
+      height: px;
+      border: 1px solid rgb(255, 255, 255);
+      box-shadow: 0 2px 4px 0 #ffffff46;
+      border-radius: 10px;
+      margin: 12px 23px 30px 8px;
+      color: #000000;
+      .tech-card-body {
+        padding: 0px;
+      }
+      img {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        width: 100%;
+      }
+      h3 {
+        margin-top: 8px;
+        font-family: monospace;
+        font-size: 1.2rem;
+      }
+      p {
+        font-size: 0.9rem;
+      }
+      .tech-card-footer {
+        font-size: 32px;
+        margin: 0 auto;
+        
+        i {
+          color: #598375;
+          transition: 0.7s;
+        }
+        i:hover {
+          color: #1f5e84;
+          animation: shake 1s;
+        }
+      }
+    }
+    @media only screen and (max-width: 500px) {
+      .tech-card {
+        img {
+          display: block;
+        }
+      }
+    }
+  }
+  .toTop {
+    margin-top: -30px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 3rem;
+    color: #1f5e84;
+    transition: 0.7s;
+    a {
+      color: #3b5e74;
+    }
+  }
+  .toTop:hover {
+    transform: scale(1.1);
+  }
+}
+
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
+
+@keyframes fadeIn1 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

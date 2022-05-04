@@ -1,0 +1,27 @@
+{
+  
+  "name": "sei-project-3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "seed": "node db/seeds.js",
+    "dev": "npx nodemon",
+    "start": "node index.js",
+    "build": "cd client && yarn && yarn build"
+  },
+ 
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.0",
+    "react-router-dom": "^6.3.0",
+    "serve": "^13.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

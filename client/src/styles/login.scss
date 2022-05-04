@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+.loginPage {
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9Xef8I0xx0Adus3Qw2vh0ob6_phLd9KtWDA&usqp=CAU");
+  padding: 20px 0 20px 0;
+  height: 100%;
+  background-size: cover; 
+  color: rgb(74, 102, 74);
+  margin-top: 20px;
+  height: 100vh;
+  background-image: no repeat;
+}
+
+.center-height {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  animation: drop 1s ease-in;
+}
+
+.login {
+  font-family: '$main-font';
+  text-align: center;
+  margin-top: 50px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  box-shadow: 0 4px 8px 0 #f8a97846;
+  border-radius: 10px;
+  padding: 30px;
+  width: 500px;
+  button {
+    background: #1F5E84;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 8px;
+    transition: 0.7s;
+  }
+  button:hover {
+    background: #236791;
+    transform: scale(1.02);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+}
+
+@keyframes drop {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}

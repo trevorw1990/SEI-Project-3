@@ -1,0 +1,28 @@
+nav.nav-style {
+  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9Xef8I0xx0Adus3Qw2vh0ob6_phLd9KtWDA&usqp=CAU')
+    rgb(255, 255, 255);
+  font-weight: bold;
+  color: #ffffff;
+  justify-content: center;
+  .text-style-color {
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-left: 5%;
+    
+  }
+  .navbar-nav {
+    align-items: center;
+    background: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+
+  p.footer-color {
+    background-color: rgb(255, 255, 255);
+  }
+
+  div.dropdown-menu.show {
+    background: rgb(255, 255, 255);
+    border-radius: 55%;
+  }
+}
