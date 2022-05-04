@@ -69,8 +69,8 @@ const BasketModal = () => {
         aria-labelledby="example-modal-sizes-title-sm">
         <Modal.Header closeButton>
           <Modal.Title id="example-modal-sizes-title-sm">
-            <Image src="https://res.cloudinary.com/inetab/image/upload/v1625583602/logo_size_htxzty.jpg" />
-            Your Shopping Cart
+            <Image src="https://cdn.iconscout.com/icon/premium/png-256-thumb/check-card-security-4429770-3675200.png" />
+            <h1>Your Shopping Cart</h1>
           </Modal.Title>
         </Modal.Header>
         <Modal.Body>
