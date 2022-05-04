@@ -24,7 +24,7 @@ const Profile = () => {
       <div className="background-color">
         <div className="form-container">
           
-          <h1>no display yet</h1>
+          <h1>🤖</h1>
           
           {art.map(myArt => {
             return <div key={myArt._id}>
