@@ -78,7 +78,7 @@ const Overview = () => {
         <div className="tech-wrapper">
           <div className="deals-hero">
             <div className="hero-overview">
-              <h3>State of the Art <Link to="/arts"><span className="art-link">Shop Now</span></Link></h3>
+              <h3>State of the Art <Link to="/arts"><span className="art-link">Shop Tech</span></Link></h3>
               <p className="text-monospace text-center">
                 
               </p>
@@ -112,16 +112,16 @@ const Overview = () => {
         <div className="tech-wrapper">
           <div className="deals-hero">
             <div className="hero-overview">
-              <h3>. <Link to="/tech"><span className="tech-link">.</span></Link></h3>
+              <h3>Get Creative with Your Home & Office <Link to="/tech"><span className="tech-link">Shop Art</span></Link></h3>
               <p className="text-monospace text-center">
                
               </p>
             </div>
-            <img src="" alt="" />
+            <img src="https://store.moma.org/on/demandware.static/-/Sites-moma-Library/default/dw8d3633e3/images/Difference_Hero_Desktop_v5.jpg" alt="" />
           </div>
         </div>
 
-        <h3 className="overview-title text-monospace">Art</h3>
+        <h3 className="overview-title text-monospace">🎨</h3>
         <div className="tech-wrapper">
           <div className="tech-deal">
             {techProducts.map(food =>
