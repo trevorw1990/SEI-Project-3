@@ -24,7 +24,7 @@ const About = () => {
       </div>
 
 
-      <h1 className="font-monospace memorial-title"></h1>
+      <img className="font-monospace memorial-title" src="https://www.linkpicture.com/q/fauxmoma-1.png"></img>
 
       <CardGroup>
         <Card className="burt">
