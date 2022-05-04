@@ -4,10 +4,10 @@
   text-align: center;
 }
 .about-info {
-  background-color: #f2c4c4;
+  background-color: #ffffff;
   text-align: center;
   h1 {
-    background-color: blanchedalmond;
+    background-color: rgb(255, 255, 255);
     max-width: fit-content;
     margin: 10px auto 80px auto;
     padding: none;
@@ -43,14 +43,14 @@
 .code-team {
   flex-direction: column;
   align-items: center;
-  background-color: #f8a978;
+  background-color: #ffffff;
   h2 {
     background-color: blanchedalmond;
     color: #3b5360;
     margin: 10px auto;
   }
   h5 {
-    background-color: blanchedalmond;
+    background-color: rgb(255, 255, 255);
     margin: 0 auto;
   }
   .team {
@@ -108,7 +108,7 @@
 }
 
 .memorial-title {
-  background-color: #1f5e84;
+  background-color: #ffffff;
   margin: 0;
   text-align: center;
 }

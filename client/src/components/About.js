@@ -7,40 +7,33 @@ const About = () => {
       <div className="background d-flex justify-content-between">
         <div className="about-info">
           <h1 className="font-monospace">About </h1>
-          <p className="font-monospace para-1">.</p>
-          <p className="font-monospace para-2">. </p>
-          <p className="font-monospace para-3"> </p>
+          <p className="font-monospace para-1">This website was designed purely for visuals and functionality. This is in no way shape or form meant to be in competition with the real MoMA design store or sell any real products.</p>
+          
+          
 
-          <div className="store-info">
-            <p className="font-monospace para-4">. <br /> . <br /> .</p>
-            <p className="font-monospace para-4">. <br />
-              .</p>
-          </div>
+     
 
         </div>
         <div className="code-team d-flex">
-          <h2 className="font-monospace">.</h2>
-          <h5 className="font-monospace">.</h5>
-          <img variant="top" className="img-fuild" src="" />
-          <h3>.</h3>
+        
+          <img variant="top" className="img-fuild" src="https://store.moma.org/dw/image/v2/BBQC_PRD/on/demandware.static/-/Sites-master-moma/default/dwbeac6843/images/139412_a.jpg?sw=626&sh=626&sm=cut" />
+          <h3> developed by Trevor Whitehurst</h3>
 
           
         </div>
       </div>
 
 
-      <h1 className="font-monospace memorial-title">.</h1>
+      <h1 className="font-monospace memorial-title"></h1>
 
       <CardGroup>
         <Card className="burt">
-          <img className="image-border animate__animated animate__zoomIn" variant="top" src="" />
-          <h3>.</h3>
+         
           
         </Card>
 
         <Card className="luna">
-          <img className="image-border animate__animated animate__zoomIn luna-img" src="" />
-          <h3>.</h3>
+          
           
         </Card>
       </CardGroup >
