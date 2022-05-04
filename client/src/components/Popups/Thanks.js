@@ -9,8 +9,8 @@ const Thanks = () => {
     <>
       <div className="thanks-page">
         <div className="thanks">
-          <h1 id="header-thanks">Thanks For Shopping!</h1>
-          <Link to="/products"><p id="continue">Continue Shopping...</p></Link>
+          <h1 id="header-thanks">Purchase Confirmed!</h1>
+          <Link to="/products"><p id="continue">Back to store</p></Link>
         </div>
       </div>
       <img className="party" src="" alt="" />
