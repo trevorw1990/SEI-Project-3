@@ -11,16 +11,16 @@
     max-width: fit-content;
     margin: 10px auto 80px auto;
     padding: none;
-    color: #3b5360;
+    color: #000000;
   }
   p {
     margin: 50px 80px;
     padding: 10px;
     border-radius: 8px;
-    border: 1px solid black;
+    border: 1px solid rgb(148, 146, 146);
   }
   .para-1 {
-    background-color: #c4bcbc;
+    background-color: #ffffff;
     max-width: fit-content;
   }
   .para-2 {
@@ -28,7 +28,7 @@
     max-width: fit-content;
   }
   .para-3 {
-    background-color: #d3f5fe;
+    background-color: #c4d1d4;
   }
   .store-info {
     p.para-4 {
@@ -101,7 +101,7 @@
     padding: 10px;
   }
   #luna-name {
-    background-color: lightpink;
+    background-color: rgb(255, 255, 255);
     border-radius: 5px;
     padding: 5px;
   }

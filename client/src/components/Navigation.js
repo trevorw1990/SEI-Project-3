@@ -57,8 +57,8 @@ const Navigation = () => {
               </>
               :
               <>
-                <Nav.Link href="/art" className="text-style-color">My item</Nav.Link>
-                <Nav.Link href="/profile" className="text-style-color">Add item</Nav.Link>
+                
+                
                 <Nav.Link className="text-style-color" onClick={handleLogout}>Log Out</Nav.Link>
               </>
             }

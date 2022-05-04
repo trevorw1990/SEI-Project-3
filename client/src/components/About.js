@@ -1,9 +1,17 @@
 import React from 'react'
 import { Card, CardGroup } from 'react-bootstrap'
+import Marquee from 'react-fast-marquee'
 
 const About = () => {
   return (
     <>
+      <Marquee className="banner">
+        <div>The latest design</div>
+        <div className="middle-banner">The Faux MoMA</div>
+        <div>.</div>
+      </Marquee>
+    
+
       <div className="background d-flex justify-content-between">
         <div className="about-info">
           <h1 className="font-monospace">About </h1>
