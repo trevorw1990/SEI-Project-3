@@ -110,7 +110,7 @@ const Register = () => {
                 {/* login */}
                 <div className="login">
                   <Form.Group className="mb-3" controlId="formBasicPassword">
-                    <Form.Label>Please login instead!</Form.Label>
+                    <Form.Label>Sign-in</Form.Label>
                     <Nav.Link className="text-style-color" eventKey={2} href="/login"> <button className="Log">Login</button></Nav.Link>
                   </Form.Group>
                 </div>
