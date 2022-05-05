@@ -59,7 +59,7 @@ const Login = () => {
       />
       <section className="loginPage">
 
-        <h1 className="login">Login To See More!</h1>
+        <h1 className="login">Login</h1>
         <Container fluid="md" className="center-height animate__slideOutDown">
           <Row className="justify-content-md-center">
             <Col >
