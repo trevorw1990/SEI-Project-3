@@ -13,7 +13,7 @@ const Home = () => {
 
       <div className=" top-hero d-flex">
         <div className="p-2 w-100 center">
-          <h2 className="text-monospace text-center fs-1">Shop <i className=""></i>  <span className="fw-bold"><br />.</span>&<span className="fw-bold">.</span>!</h2>
+          <h2 className="text-monospace text-center fs-1">The latest & Greatest <i className=""></i>  <span className="fw-bold"><br />Welcome to the Fake MoMA Design Store</span> -- <span className="fw-bold">build your vision</span>!</h2>
           <p className="text-monospace text-center">
             .
           </p>
@@ -26,20 +26,21 @@ const Home = () => {
       <div className="mid-hero d-flex justify-content-around text-monospace">
         <div className="info-hero">
           <img src="" />
-          <p className="fw-bold lh-sm text-decoration-underline" >3</p>
-          <p>new
+          <p className="fw-bold lh-sm text-decoration-underline" >Beautifully Organized</p>
+          <p>
           </p>
         </div>
         <div className="info-hero">
           <img src="" />
-          <p className="fw-bold lh-sm text-decoration-underline">2</p>
-          <p>.
+          <p className="fw-bold lh-sm text-decoration-underline">Spring
+Gifting</p>
+          <p>
           </p>
         </div>
         <div className="info-hero">
           <img src="" />
-          <p className="fw-bold lh-sm text-decoration-underline">1</p>
-          <p>100.</p>
+          <p className="fw-bold lh-sm text-decoration-underline">Pretend MoMA Exclusives</p>
+          
         </div>
       </div>
 
@@ -51,7 +52,7 @@ const Home = () => {
               src="https://store.moma.org/on/demandware.static/-/Sites/default/dw1daee34e/images/20220422_4_ArtistProducts_hp_d.jpg"
               alt="First slide"
             />
-            <p className="text-monospace"><q> </q> </p>
+            <p className="text-monospace"><q>Our selection process is unreal.</q> </p>
           </div>
         </Carousel.Item>
         <Carousel.Item>
@@ -61,7 +62,7 @@ const Home = () => {
               src="https://store.moma.org/on/demandware.static/-/Sites-moma-Library/default/dwc8683a49/images/opt/202004_landing_tech_d.jpeg"
               alt="Second slide"
             />
-            <p className="text-monospace"><q>Test</q> </p>
+            <p className="text-monospace"><q>Originally Fake Product</q> </p>
 
           </div>
         </Carousel.Item>
@@ -72,7 +73,7 @@ const Home = () => {
               src="https://store.moma.org/on/demandware.static/-/Sites-moma-Library/default/dw32512913/images/opt/20210104_pumpkins_d.png"
               alt="Third slide"
             />
-            <p className="text-monospace"><q>!</q> - </p>
+            <p className="text-monospace"><q>Discover what sets the Fake MoMA Design Store apart from any other fake ecommerce.</q> - </p>
           </div>
         </Carousel.Item>
       </Carousel>
