@@ -159,12 +159,13 @@ body {
   justify-content: center;
   text-align: center;
   height: 100vh;
-  background-image: url("");
+  background-image: url("https://media.vanityfair.com/photos/622e13dd0c804156edcd619b/16:9/w_2992,h_1683,c_limit/51756277");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   .thanks {
     font-family: monospace;
+    color: #5eff00;
     h1 {
       margin-top: -400px;
     }
@@ -174,7 +175,7 @@ body {
     #continue {
       font-weight: bold;
       text-decoration: none !important;
-      color: #215575;
+      color: #ff00d4;
       font-size: 1.7rem;
       transition: 0.7s !important;
     }

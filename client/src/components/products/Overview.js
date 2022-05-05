@@ -3,6 +3,7 @@ import axios from 'axios'
 import MainModal from '../Popups/MainModal'
 import ProductCard from '../Popups/ProductCard'
 import { Link } from 'react-router-dom'
+import Marquee from 'react-fast-marquee'
 
 
 
@@ -73,6 +74,12 @@ const Overview = () => {
         />)}
 
       <div className="">
+
+        <Marquee className="banner">
+          <div>The latest design</div>
+          <div className="middle-banner">The Faux MoMA</div>
+          <div>.</div>
+        </Marquee>
         
 
         <div className="tech-wrapper">
