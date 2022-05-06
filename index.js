@@ -13,7 +13,7 @@ const startServer = async () => {
     // connecting dbURI
     await mongoose.connect(dbURI, { useNewUrlParser: true, useCreateIndex: true, useUnifiedTopology: true })
     console.log(' Database has connected successfully')
-    
+
     if (process.env.NODE_ENV === 'production') {
       app.use(express.static(`${__dirname}/client/build`));
     }
@@ -29,7 +29,7 @@ const startServer = async () => {
     // add router
     app.use('/api', router)
 
-    app.use('/*', (_, res) => res.sendFile(__dirname, 'build', 'index.html'));
+    app.use('/*', (_, res) => res.sendFile(__dirname, '/client/build', 'index.html'));
 
     // event listener
     app.listen(port, () => console.log(` Express is up and running on ${port}`))
