@@ -13,9 +13,10 @@ const startServer = async () => {
     // connecting dbURI
     await mongoose.connect(dbURI, { useNewUrlParser: true, useCreateIndex: true, useUnifiedTopology: true })
     console.log(' Database has connected successfully')
-
-    app.use(express.static(`${__dirname}/client/build`))
-
+    
+    if (process.env.NODE_ENV === 'production') {
+      app.use(express.static(`${__dirname}/client/build`));
+    }
     // log request
     app.use((req, _res, next) => {
       console.log(`Incoming request: METHOD: ${req.method}, URL: ${req.url}`)

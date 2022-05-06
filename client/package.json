@@ -25,7 +25,8 @@
     "react-scripts": "4.0.3",
     "react-scroll": "^1.8.2",
     "react-toastify": "^7.0.4",
-    "sass": "^1.32.8"
+    "sass": "^1.32.8",
+    "serve": "^13.0.2"
   },
   "scripts": {
     "start": "react-scripts start",
