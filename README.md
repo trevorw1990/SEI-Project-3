@@ -50,7 +50,10 @@ Project 3:
 
 ## Plan
 I started by brainstorming ideas for an app that would be built using express, node and React. I thought creating an e-commerce app would work for the skill level I’m at. 
+<img width="1031" alt="Screen Shot 2022-05-06 at 11 39 24 PM" src="https://user-images.githubusercontent.com/95665741/167236772-48a18a96-9e05-4e6e-9562-771f6dbc6ff5.png">
 
+<img width="1037" alt="Screen Shot 2022-05-06 at 11 40 07 PM" src="https://user-images.githubusercontent.com/95665741/167236779-2ca7a668-8b41-47ff-931b-a966bccebc0f.png">
+<img width="1723" alt="Screen Shot 2022-05-06 at 11 40 53 PM" src="https://user-images.githubusercontent.com/95665741/167236789-71ad578d-e4f2-4ed1-833f-ddff77973b61.png">
 
 * Homepage
 * About Page
