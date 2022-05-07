@@ -30,7 +30,7 @@ Project 3:
 ## Technologies
 
 * Trello
-* Miro
+* Lucid Chart
 
 **Frontend:**
 * React.js
