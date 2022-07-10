@@ -57,6 +57,3 @@ I started by brainstorming ideas for an app that would be built using express, n
 * Overview Page
 * Arts Page
 
-
-## Challenges
-Deploying the App to Heroku and connecting my front-end code didn’t workout the way I wanted it to. I’m still trying to figure out why. 
