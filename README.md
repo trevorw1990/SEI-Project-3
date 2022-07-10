@@ -22,9 +22,6 @@ Project 3:
  
  
  </div>
-
-## Deployment
-<a href="https://enigmatic-beyond-82935.herokuapp.com/">The Fake MoMA Store</a>
  
 
 ## Technologies
